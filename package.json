@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-test-problem",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "karassayraushanbek@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start-m1": "ts-node src/m1/index.ts",
+    "start-m2": "ts-node src/m2/index.ts",
+    "start-main": "ts-node src/index.ts",
+    "dev": "yarn start-m1 & yarn start-m2 & yarn start-main"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.4",
+    "@types/express": "^4.17.21",
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
